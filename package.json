@@ -1,0 +1,27 @@
+{
+  "name": "aws-rotate-cli",
+  "version": "0.1.0",
+  "description": "A CLI tool for rotating AWS access keys and secret access keys.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shane4STER/aws-rotate-cli.git"
+  },
+  "author": "Shane Forster <cs.4ster@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Shane4STER/aws-rotate-cli/issues"
+  },
+  "homepage": "https://github.com/Shane4STER/aws-rotate-cli#readme",
+  "preferGlobal": true,
+  "bin": {
+    "aws-rotate": "index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.409.0",
+    "replace-in-file": "^3.4.3"
+  }
+}
